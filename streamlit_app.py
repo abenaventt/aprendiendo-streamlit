@@ -16,6 +16,8 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 
 num_año = st.slider("Año de la película", fichero["Year"].values.min(), fichero["Year"].values.max())
+num_ratio = st.slider("Rating", fichero["Rating"].values.min(), fichero["Rating"].values.max())
+
 
 
 indices = np.linspace(0, 1, num_points)
