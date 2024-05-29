@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+Fichero = pd.read_csv("IMDB-Movie-Data.csv")
 """
 # Welcome to Streamlit Albert!
 
