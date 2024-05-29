@@ -15,7 +15,7 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
-num_año = st.slider("Año de la película", 1, fichero["Year"].values.min(), fichero["Year"].values.max())
+num_año = st.slider("Año de la película", fichero["Year"].values.min(), fichero["Year"].values.max())
 
 
 indices = np.linspace(0, 1, num_points)
