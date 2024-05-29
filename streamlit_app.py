@@ -17,7 +17,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 num_año = st.slider("Año de la película", fichero["Year"].values.min(), fichero["Year"].values.max())
 num_ratio = st.slider("Rating", fichero["Rating"].values.min(), fichero["Rating"].values.max())
-num_revenue = st.slider("Revenue (Millions)", fichero["Revenue (Millions)"].values.min(), fichero["Revenue (Millions)"].values.max())
 
 
-plt.plot(num_año,num_revenue)
+
+plt.plot(num_año,num_ratio)
